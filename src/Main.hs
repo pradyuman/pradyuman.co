@@ -1,4 +1,10 @@
-module Main where
+{-# LANGUAGE OverloadedStrings #-}
+
+import Hakyll
 
 main :: IO ()
-main = putStrLn "pradyuman.co"
+main = hakyll $ do
+  match "images/*" $ do
+    route idRoute
+    compile copyFileCompiler
+

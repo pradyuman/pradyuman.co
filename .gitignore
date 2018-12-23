@@ -1,4 +1,6 @@
+.DS_Store
 .stack-work/
 pradyuman-pw.cabal
-.DS_Store
 *~
+_cache
+_site
