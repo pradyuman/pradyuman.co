@@ -13,6 +13,7 @@ main = hakyll $ do
 
   match "index.html" $ do
     route idRoute
+    let homeContext = constField "title" "Home" `mappend` defaultContext
     compile $ getResourceBody
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= loadAndApplyTemplate "templates/default.html" homeContext
       >>= relativizeUrls
