@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Tiempos Fine';
+  src: url('../fonts/TiemposFineWeb-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Tiempos Text';
+  src: url('../fonts/TiemposTextWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('../fonts/SuisseIntl-Bold-WebS.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('../fonts/SuisseIntl-SemiBold-WebS.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('../fonts/SuisseIntl-Medium-WebS.woff') format('woff');
+  font-weight: 500;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Suisse', -apple-system, BlinkMacSystemFont,   "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",   "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  color: #011118;
+  font-weight: 500;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+img {
+  object-fit: cover;
+}
+
+.fit-width {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.home-header-hero {
+  font-family: 'Tiempos Fine';
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+  padding-top: 140px;
+}
+
+.home-header-caption {
+  color: rgba(1, 17, 24, 0.25);
+}
+
+.home-header-caption strong {
+  color: #663b9f;
+}
+
+.home-header-description {
+  width: 480px;
+  margin-top: 16px;
+  opacity: 0.5;
+}
+
+.home-header-cover {
+  margin-top: 72px;
+  padding-left: calc((100vw - 1200px) / 2);
+  position: relative;
+}
