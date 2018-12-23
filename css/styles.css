@@ -57,6 +57,11 @@ h1 {
   letter-spacing: -1.2px;
 }
 
+h3 {
+  font-size: 32px;
+  letter-spacing: -0.6px;
+}
+
 p {
   font-size: 19px;
   opacity: 0.75;
@@ -103,4 +108,56 @@ p {
   margin-top: 72px;
   padding-left: calc((100vw - 1200px) / 2);
   position: relative;
+}
+
+@media all and (max-width: 1200px) {
+  .content {
+    margin-top: 72px;
+  }
+
+  .container {
+    width: auto;
+    padding: 0px 32px;
+  }
+
+  .home-header-hero {
+    font-size: 64px;
+    letter-spacing: -3.2px;
+    line-height: 64px;
+  }
+
+  h1 {
+    font-size: 48px;
+    letter-spacing: -0.8px;
+  }
+
+  h3 {
+    font-size: 24px;
+    letter-spacing: -0.4px;
+  }
+
+  p {
+    font-size: 16px;
+    opacity: 0.75;
+    line-height: 28px;
+    margin: 24px 0px;
+    letter-spacing: 0px;
+  }
+
+  .home-header-description {
+    width: auto;
+  }
+
+  .home-header-cover {
+    margin-top: 0px;
+    padding-top: 96px;
+    overflow: hidden;
+    padding-left: 0px;
+  }
+
+  .home-header-cover .fit-width {
+    width: auto;
+    height: auto;
+    margin-left: 32px;
+  }
 }
