@@ -34,7 +34,7 @@ body {
   color: #011118;
   font-weight: 500;
   font-size: 14px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 a, a:hover, a:active, a:visited, a:focus {
@@ -81,13 +81,16 @@ p {
   position: relative;
 }
 
+.content {
+  margin-top: 25vh;
+}
+
 .home-header-hero {
   font-family: 'Tiempos Fine';
   font-size: 96px;
   line-height: 96px;
   letter-spacing: -2px;
   margin-bottom: 16px;
-  padding-top: 140px;
 }
 
 .home-header-caption {
@@ -107,13 +110,12 @@ p {
 .home-header-cover {
   margin-top: 72px;
   padding-left: calc((100vw - 1200px) / 2);
-  position: relative;
+  position: absolute;
+  bottom: -11px;
+  width: 80%;
 }
 
 @media all and (max-width: 1200px) {
-  .content {
-    margin-top: 72px;
-  }
 
   .container {
     width: auto;
