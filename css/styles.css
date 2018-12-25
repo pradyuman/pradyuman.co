@@ -65,7 +65,7 @@ p {
   font-size: 19px;
   opacity: 0.75;
   line-height: 36px;
-  margin: 32px 0px;
+  margin: 16px 0px;
   letter-spacing: 0px;
 }
 
@@ -114,6 +114,11 @@ p {
   width: 80%;
 }
 
+.home-header-social-links {
+  letter-spacing: .3em;
+  font-size: 19px;
+}
+
 @media all and (max-width: 1200px) {
 
   .container {
@@ -141,12 +146,16 @@ p {
     font-size: 16px;
     opacity: 0.75;
     line-height: 28px;
-    margin: 24px 0px;
+    margin: 16px 0px;
     letter-spacing: 0px;
   }
 
   .home-header-description {
     width: auto;
+  }
+
+  .home-header-social-links {
+    font-size: 16px;
   }
 
   .home-header-cover {
