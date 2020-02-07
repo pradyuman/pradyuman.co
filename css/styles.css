@@ -112,6 +112,7 @@ p {
   position: absolute;
   bottom: -11px;
   width: 80%;
+  z-index: -1;
 }
 
 .home-header-social-links {
