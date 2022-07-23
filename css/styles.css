@@ -94,6 +94,7 @@ p {
 
 .home-header-caption {
   color: rgba(1, 17, 24, 0.25);
+  margin-bottom: 16px;
 }
 
 .home-header-caption strong {
